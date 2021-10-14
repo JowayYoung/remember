@@ -28,7 +28,6 @@
 		"ios >= 8"
 	],
 	"dependencies": {
-		"@tarojs/cli": "3.3.9",
 		"@tarojs/components": "3.3.9",
 		"@tarojs/react": "3.3.9",
 		"@tarojs/runtime": "3.3.9",
