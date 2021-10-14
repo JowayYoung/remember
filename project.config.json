@@ -6,7 +6,6 @@
 	"miniprogramRoot": "dist/",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
-	"condition": {},
 	"setting": {
 		"autoAudits": false,
 		"babelSetting": {
@@ -42,5 +41,6 @@
 		"useMultiFrameRuntime": true,
 		"userConfirmedBundleSwitch": false,
 		"userConfirmedUseCompilerModuleSwitch": false
-	}
+	},
+	"condition": {}
 }

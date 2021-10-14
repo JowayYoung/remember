@@ -1,6 +1,9 @@
 export default {
 	pages: [
-		"pages/index/index"
+		"pages/stats/index",
+		"pages/chart/index",
+		"pages/plan/index",
+		"pages/mine/index"
 	],
 	window: {
 		backgroundTextStyle: "light", // 下拉加载样式

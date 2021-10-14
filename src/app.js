@@ -1,14 +1,8 @@
-import { Component } from "react";
+import React, { useEffect } from "react";
+
 import "./app.scss";
 
-class App extends Component {
-	componentDidMount() {}
-	componentDidShow() {}
-	componentDidHide() {}
-	componentDidCatchError() {}
-	render() {
-		return this.props.children;
-	}
+export default function App(props) {
+	useEffect(() => console.log("加载完毕"), []);
+	return props.children;
 }
-
-export default App;

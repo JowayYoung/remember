@@ -1,4 +1,4 @@
 export default {
 	enableShareAppMessage: true,
-	navigationBarTitleText: "Taro-hooks"
+	navigationBarTitleText: "图表"
 };
