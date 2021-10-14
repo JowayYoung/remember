@@ -33,6 +33,7 @@
 		"@tarojs/react": "3.3.9",
 		"@tarojs/runtime": "3.3.9",
 		"@tarojs/taro": "3.3.9",
+		"dayjs": "1.10.7",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
 		"taro-hooks": "1.4.7",

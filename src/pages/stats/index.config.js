@@ -1,4 +1,4 @@
 export default {
 	enableShareAppMessage: true,
-	navigationBarTitleText: "统计"
+	navigationBarTitleText: "记点"
 };

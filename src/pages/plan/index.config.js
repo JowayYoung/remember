@@ -1,4 +1,4 @@
 export default {
 	enableShareAppMessage: true,
-	navigationBarTitleText: "计划"
+	navigationBarTitleText: "记点"
 };

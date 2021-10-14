@@ -11,7 +11,7 @@ export default {
 			iconPath: "assets/icon/stats.png",
 			pagePath: "pages/stats/index",
 			selectedIconPath: "assets/icon/stats-active.png",
-			text: "统计"
+			text: "明细"
 		}, {
 			iconPath: "assets/icon/chart.png",
 			pagePath: "pages/chart/index",
@@ -32,8 +32,8 @@ export default {
 	},
 	window: {
 		backgroundTextStyle: "light", // 下拉加载样式
-		navigationBarBackgroundColor: "#fff", // 导航背景颜色
-		navigationBarTextStyle: "black", // 导航标题颜色
+		navigationBarBackgroundColor: "#3c9", // 导航背景颜色
+		navigationBarTextStyle: "white", // 导航标题颜色
 		navigationBarTitleText: "记点" // 导航标题内容
 	}
 };

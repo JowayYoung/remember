@@ -1,4 +1,52 @@
-.stats-page {
-	padding: 20px;
-	height: 100vh;
+.stats {
+	&-page {
+		display: flex;
+		overflow: hidden;
+		flex-direction: column;
+		height: 100vh;
+	}
+	&-summary {
+		background-color: #3c9;
+		&-title,
+		&-body {
+			display: flex;
+			justify-content: center;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			&-item {
+				flex: 1;
+				font-size: 24px;
+				color: #fff;
+			}
+		}
+		&-body {
+			padding-bottom: 10px;
+			height: 60px;
+			&-item {
+				font-size: 32px;
+				color: #333;
+			}
+			&-date {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				&::after {
+					margin: 10px 0 0 10px;
+					border: 10px solid transparent;
+					border-top-color: #333;
+					content: "";
+				}
+			}
+		}
+	}
+	&-detail {
+		overflow: hidden;
+		flex: 1;
+	}
+	&-btn {
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+	}
 }
