@@ -1,7 +1,7 @@
 {
 	"projectname": "remember",
 	"description": "A Wechat Applet For Recording Life",
-	"appid": "touristappid",
+	"appid": "wx70020516b99fca0c",
 	"compileType": "miniprogram",
 	"miniprogramRoot": "dist/",
 	"simulatorType": "wechat",
