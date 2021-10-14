@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+import "./assets/css/theme.scss";
 import "./app.scss";
 
 export default function App(props) {
