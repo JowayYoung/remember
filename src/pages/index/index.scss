@@ -1,0 +1,48 @@
+page {
+	box-sizing: border-box;
+	padding: 14px;
+	background-color: white;
+	color: #333;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 270px;
+	height: 270px;
+}
+.title,
+.desc {
+	text-align: center;
+	font-size: 32px;
+}
+.desc {
+	margin: 20px 0;
+	font-size: 28px;
+	color: rgba(0, 0, 0, .85);
+}
+.list {
+	display: flex;
+	align-items: center;
+	padding: 24px 0;
+	border-width: 1px 0 1px 0;
+	border-style: solid;
+	border-color: rgba(51, 51, 51, .1);
+	font-size: 32px;
+}
+.list:not(:first-child) {
+	border-top-width: 0;
+}
+.label {
+	flex: .4;
+}
+.button {
+	display: block;
+	margin-top: 20px;
+	border-radius: 2px;
+	width: 100%;
+	background-color: transparent;
+}
