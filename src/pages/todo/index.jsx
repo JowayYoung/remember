@@ -3,9 +3,9 @@ import { Text, View } from "@tarojs/components";
 
 import "./index.scss";
 
-export default function Plan() {
+export default function Todo() {
 	return (
-		<View className="plan-page">
+		<View className="todo-page">
 			<Text>计划</Text>
 		</View>
 	);

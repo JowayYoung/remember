@@ -23,8 +23,8 @@ export default function Stats() {
 					<Picker className="stats-summary-body-item" mode="date" fields="month" onChange={onChangeDate}>
 						<Text className="stats-summary-body-date">{date}</Text>
 					</Picker>
-					<View className="stats-summary-body-item">14936.58</View>
-					<View className="stats-summary-body-item">3882.71</View>
+					<View className="stats-summary-body-item">99999.99</View>
+					<View className="stats-summary-body-item">99999</View>
 				</View>
 			</View>
 			<View className="stats-detail"></View>

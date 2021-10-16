@@ -2,7 +2,8 @@ export default {
 	pages: [
 		"pages/stats/index",
 		"pages/chart/index",
-		"pages/plan/index",
+		"pages/create/index",
+		"pages/todo/index",
 		"pages/mine/index"
 	],
 	tabBar: {
@@ -18,9 +19,14 @@ export default {
 			selectedIconPath: "assets/icon/chart-active.png",
 			text: "图表"
 		}, {
-			iconPath: "assets/icon/plan.png",
-			pagePath: "pages/plan/index",
-			selectedIconPath: "assets/icon/plan-active.png",
+			iconPath: "assets/icon/create.png",
+			pagePath: "pages/create/index",
+			selectedIconPath: "assets/icon/create-active.png",
+			text: "记账"
+		}, {
+			iconPath: "assets/icon/todo.png",
+			pagePath: "pages/todo/index",
+			selectedIconPath: "assets/icon/todo-active.png",
 			text: "计划"
 		}, {
 			iconPath: "assets/icon/mine.png",
