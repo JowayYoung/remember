@@ -1,4 +1,14 @@
-.chart-page {
-	padding: 20px;
-	height: 100vh;
+.chart {
+	&-page {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+	&-placeholder {
+		margin-bottom: 20px;
+		width: 500px;
+		height: 500px;
+	}
 }
