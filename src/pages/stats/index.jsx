@@ -8,7 +8,7 @@ import { DAYS } from "../../utils/getting";
 
 export default function Stats() {
 	const [date, setDate] = useState(Day().format("YYYY-MM"));
-	const onChangeDate = e => setDate(e.detail.value);
+	const onChange = e => setDate(e.detail.value);
 	const statsDom = STATS_LIST.map(v => {
 		const date = Day(v.date);
 		const amount = v.list.reduce((t, w) => t + w.money, 0).toFixed(2);
@@ -41,7 +41,7 @@ export default function Stats() {
 					<Text className="stats-summary-title-item">支出</Text>
 				</View>
 				<View className="stats-summary-body">
-					<Picker className="stats-summary-body-item" mode="date" fields="month" onChange={onChangeDate}>
+					<Picker className="stats-summary-body-item" mode="date" fields="month" onChange={onChange}>
 						<Text className="stats-summary-body-date">{date}</Text>
 					</Picker>
 					<Text className="stats-summary-body-item">99999.99</Text>
